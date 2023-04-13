@@ -20,12 +20,12 @@ This package needs Google's scripts to be in your index.html. So, include the fo
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'google_sign_in_with_react'
+import MyGoogle from 'google_sign_in_with_react'
 import 'google_sign_in_with_react/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <MyGoogle ClientId="<your client id>" localStorage/>
   }
 }
 ```
